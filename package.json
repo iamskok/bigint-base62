@@ -18,7 +18,7 @@
     "build": "rimraf dist && microbundle",
     "watch": "microbundle watch",
     "format": "prettier --write '**/*.{md,json}'",
-    "lint": "eslint --fix '**/*.ts'",
+    "lint": "eslint --fix '**/*.{ts,js}'",
     "test": "jest",
     "prepare": "husky install"
   },
