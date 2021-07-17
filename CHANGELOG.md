@@ -1,3 +1,12 @@
+### [1.0.2](https://github.com/iamskok/bigint-base62/compare/v1.0.1...v1.0.2) (2021-07-17)
+
+### Bug Fixes
+
+- module exports
+  ([7dbe93a](https://github.com/iamskok/bigint-base62/commit/7dbe93a46a17fd4f51c6742eaf6ad6b81b96db25))
+- module exports
+  ([121cce5](https://github.com/iamskok/bigint-base62/commit/121cce54aa696cb35f208cba06edb3368c5d1a19))
+
 ### [1.0.1](https://github.com/iamskok/bigint-base62/compare/v1.0.0...v1.0.1) (2021-07-17)
 
 ### Bug Fixes
