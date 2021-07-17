@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "plugin:prettier/recommended",
+    "plugin:jest/recommended",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": ["@typescript-eslint", "jest"],
+  "env": {
+    "es2021": true,
+    "jest": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "quotes": ["error", "backtick"],
+    "@typescript-eslint/quotes": ["error", "backtick", { "avoidEscape": true }],
+    "prettier/prettier": ["error", { "semi": false }],
+    "@typescript-eslint/semi": ["error", "never"]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "bigint-base62",
+  "description": "BigInt base62 codec",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/iamskok/bigint-base62",
+  "author": "Vladimir Skok",
+  "files": [
+    "dist"
+  ],
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "exports": "./dist/index.modern.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && microbundle",
+    "watch": "microbundle watch",
+    "format": "prettier --write '**/*.{md,json}'",
+    "lint": "eslint --fix '**/*.ts'",
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "lint-staged": "^11.0.1",
+    "microbundle": "^0.13.3",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.3"
+  },
+  "keywords": [
+    "base62",
+    "encode",
+    "decode",
+    "codec",
+    "BigInt"
+  ]
+}
