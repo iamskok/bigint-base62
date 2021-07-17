@@ -26,5 +26,4 @@ const encode = (number: string): string => {
   return result || `0`
 }
 
-exports.decode = decode
-exports.encode = encode
+export { decode, encode }
