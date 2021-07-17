@@ -26,4 +26,4 @@ const encode = (number: string): string => {
   return result || `0`
 }
 
-export { decode, encode }
+module.exports = { decode, encode }
