@@ -1,7 +1,7 @@
 {
   "name": "bigint-base62",
   "description": "BigInt base62 codec",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "repository": "https://github.com/iamskok/bigint-base62",
   "author": "Vladimir Skok",
