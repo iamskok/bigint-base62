@@ -23,7 +23,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "typescript": "4.3.5"
+    "typescript": "4.5.2"
   },
   "devDependencies": {
     "@commitlint/cli": "13.2.0",
