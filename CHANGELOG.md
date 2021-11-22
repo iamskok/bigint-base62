@@ -1,3 +1,10 @@
+### [1.0.15](https://github.com/iamskok/bigint-base62/compare/v1.0.14...v1.0.15) (2021-11-22)
+
+### Bug Fixes
+
+- **deps:** update dependency typescript to v4.5.2
+  ([dbcfc4c](https://github.com/iamskok/bigint-base62/commit/dbcfc4c6104d6dd20d7265a675ea48173f92dbeb))
+
 ### [1.0.14](https://github.com/iamskok/bigint-base62/compare/v1.0.13...v1.0.14) (2021-11-21)
 
 ### [1.0.13](https://github.com/iamskok/bigint-base62/compare/v1.0.12...v1.0.13) (2021-11-19)
