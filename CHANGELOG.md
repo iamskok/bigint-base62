@@ -1,3 +1,5 @@
+### [1.0.16](https://github.com/iamskok/bigint-base62/compare/v1.0.15...v1.0.16) (2021-11-23)
+
 ### [1.0.15](https://github.com/iamskok/bigint-base62/compare/v1.0.14...v1.0.15) (2021-11-22)
 
 ### Bug Fixes
