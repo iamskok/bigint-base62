@@ -40,7 +40,7 @@
     "husky": "7.0.4",
     "jest": "27.2.5",
     "lint-staged": "11.2.6",
-    "microbundle": "0.14.2",
+    "microbundle": "0.15.1",
     "prettier": "2.5.1",
     "rimraf": "3.0.2",
     "ts-jest": "27.1.0"
